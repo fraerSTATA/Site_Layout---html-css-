@@ -1,0 +1,103 @@
+.Contact{
+  margin-left: 217px;
+    width: 1150px;
+    display: flex;
+    flex-flow: row;
+  	justify-content: space-around;;
+}
+footer > h2 {
+  margin-top: 32px;
+	margin-left: 559px;
+	font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Times New Roman";
+  
+ 
+
+}
+footer > h1 {
+    
+	margin-top: 88px;
+	margin-left: 610px;
+	font-size: 62px;
+color: #9f9f9f;
+font-weight: 700;
+font-family: "Peace Sans";
+padding-bottom: 90px;
+}
+.Contact > div{
+	 
+	 
+    height:78px;
+      width:330px;
+      
+}
+.ContactDiv > div {
+  padding-left: 34px;
+ 
+}
+
+.ContactDiv > div > span{
+  display:block;
+  font-size: 22px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+
+}
+.ContactDiv > div > p{
+font-size: 17px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.ContactDiv{
+  padding-top: 10px;
+  padding-left: 20px;
+  flex-flow: row;
+  
+  display: flex;
+  
+  
+}
+
+.Icons {
+  margin-top: 100px;
+  display: flex;
+  width:780px;
+  height:62px;
+  margin-left: 432px;
+  border-bottom:2px solid #9f9f9f; 
+}
+
+.Icons > ul {
+  list-style: none;
+  margin-left: 134px;
+  margin-right: 155px;
+ 
+}
+
+.Icons li{
+  margin-left: 38px;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+
+.Icons > ul > li:first-child{
+  margin-left: 46px;
+}  
+
+.Icons > ul > li:nth-child(6) {
+  
+
+}    
+
+.Icons > ul > li:hover{
+ transform: scale(1.2);
+}  

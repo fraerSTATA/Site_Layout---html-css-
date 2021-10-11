@@ -1,0 +1,364 @@
+@font-face {
+	font-family: 'Peace Sans'; 
+	src: local('Peace Sans'),
+		url(../fonts/PeaceSans/PeaceSans.ttf); 
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	border:0;
+}
+.Main_Menu{
+	overflow: hidden;
+	display:flex;
+	flex-flow:column wrap;
+	width:100%;
+}
+
+
+
+
+.Who{
+	display:flex;
+	height:577px;
+	background:#ffffff;
+	background-image: url(../image/WhoBack.png);
+	width:100%;
+}
+
+.What{
+	width:100%;
+	height: 744px;
+	background:#f5f5f5;
+	background-image: url(../image/WhatBack.png);
+}
+.How {
+	height:733px;
+	background:#ffffff;
+	background-image: url(../image/HowBack.png);
+	width:100%;
+	overflow: none;
+
+}
+
+
+.Our{
+	height:794px;
+	background:#f5f5f5;
+	width:100%;
+	background-image: url(../image/OurBack.png);
+	display: flex;
+	flex-flow:column wrap;
+}
+
+.Client{
+
+	flex-flow: column;
+	width:100%;
+	height:741px;
+	background:#ffffff;
+	background-image: url(../image/ClientBack.png);
+}
+
+footer{
+	width:100%;
+	display:flex;
+	flex-flow: column;
+	overflow: hidden;
+	height:572px;
+	background-image: url(../image/FooterBack.png);
+}
+
+
+
+.WhoAre{
+	margin-left: 200px;
+	margin-top:100px;
+	display: flex;
+	width:500px;
+	height:362px;
+	flex-flow: column;
+	word-wrap: break-word;
+  overflow: hidden;
+}
+.WhoAre h1{
+	margin-bottom: 30px;
+	font-size: 62px;
+color: #494949;
+font-weight: 700;
+font-family: 'Peace Sans';
+}
+
+.WhoAre p{
+	margin-left: 10px;
+font-size: 17px;
+line-height: 30px;
+color: #6a6a6a;
+font-weight: 400;
+font-family: "Open Sans";
+margin-bottom: 40px;}
+
+.WhoAre a:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.2);
+	transform: scale(1.1);
+	
+  }
+  
+  .WhoAre a{
+	-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+	display: block;
+	font-size: 21px;
+letter-spacing: 1px;
+color: #f5f3f3;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+text-decoration: none;
+  }
+ .WhoDiv{
+	background-color: rgb(248, 4, 4);
+	text-align: center;
+	width: 192px;
+	height: 54px;
+	border-radius: 27px;	
+padding-top: 16px;
+  }
+
+  .Macbook{ 
+	  margin-top: 100px;
+	  margin-left: 100px;
+	 
+	 
+  }
+
+.WhatWe{
+	align-content: space-around;
+	display:flex;
+	flex-flow: row wrap;
+	height:400px;
+	width:1200px;
+	margin-right: 100px;
+	margin-left: 230px;
+	margin-bottom:150px;
+}
+  .WhatWe > div{
+	 
+	 
+	  height:164px;
+		width:330px;
+
+margin-left: 60px;
+  }
+
+  .What > h1{
+	  margin-left: 640px;
+	  margin-top: 93px;
+	margin-bottom: 30px;
+	font-size: 62px;
+color: #494949;
+font-weight: 700;
+font-family: "Peace Sans";
+}
+.WhatWeDiv {
+
+	display:flex;
+	word-wrap: break-word;
+}
+ .WhatWeDiv span{
+	font-size: 30px;
+letter-spacing: -1px;
+color: #6f6f6e;
+font-weight: 800;
+font-family: "Open Sans";
+}
+
+.WhatWeDiv p{
+	margin-top: 20px;
+	font-size: 17px;
+	line-height: 30px;
+	color: #6a6a6a;
+	font-weight: 400;
+	font-family: "Open Sans";
+}
+
+.news{
+	width:266px;
+	margin-left: 13px;
+}
+
+
+.How >h1{
+	margin-left: 204px;
+	margin-top:100px;
+	margin-bottom: 63px;
+	font-size: 62px;
+color: #494949;
+font-weight: 700;
+font-family: 'Peace Sans';
+}
+
+.HowDiv{
+	overflow: hidden;
+	display:flex ;
+	flex-flow: row;
+	width:1600px;
+	height: 297px;
+	margin-left:204px;
+	align-content: space-around;
+
+}
+.HowDiv > div:first-child{
+	display:flex;
+	flex-flow:column;
+	width:306px;
+	height:297px;
+	
+}
+
+.HowDiv > div:first-child p{
+	padding-top: 18px;
+	margin-left: 10px;
+	
+	margin-bottom: 50px;
+	font-size: 18px;
+line-height: 30px;
+color: grey;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+
+.HowDiv > div:first-child a:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.2);
+	transform: scale(1.1);
+	
+  }
+  
+  .HowDiv > div:first-child a{
+	-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+-moz-transition: all 1s ease;
+transition: all 1s ease;
+	display: block;
+	font-size: 21px;
+letter-spacing: 1px;
+color: #f5f3f3;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+text-decoration: none;
+  }
+
+  .HowDivCard > div:nth-child(1){
+	  margin-left: 50px;
+	  
+	 
+	  background-image: url("../image/Teacher.png");
+	  background-position: center;
+	  background-size: 150%;
+  }
+  .HowDivCard > div:nth-child(2){
+	margin-left: 58px;
+	
+   
+	background-image: url("../image/Stul.png");
+	background-position: center;
+	background-size: 150%;
+}
+.HowDivCard > div:nth-child(3){
+	margin-left: 58px;
+	
+   
+	background-image: url("../image/Time.png");
+	background-position: center;
+	background-size: 150%;
+}
+
+.Card div {
+	padding-top:110px;
+	overflow:hidden;
+	height:270px;
+	transform: skewX(20deg);
+	width:214px;
+	transition:1s ease-in-out;
+}
+  .Card{
+	  display: flex;
+	  flex-flow:column;
+	background-color: rgb( 66, 66, 64 );
+	word-wrap: break-word;
+	  margin-left: 58px;
+	  width:306px;
+	  height:297px;
+	  transform: skewX(-20deg);
+	
+  }
+.Card > div > p{
+	font-size: 18px;
+line-height: 30px;
+color: #f5f3f3;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.Card > div > h3{
+	margin-top:15px;	
+	
+	font-size: 40px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+
+}
+ .Card > div:hover{
+	 margin-top:-115px;
+
+	 margin-left:5px;
+ }
+.Card > h2{
+	width:50px;
+	display: inline-block;
+	transform: skewX(20deg);
+	margin-left:230px;
+	height:62px;
+	margin-top:5px;
+margin-bottom:50px;
+font-size: 58px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+}
+
+.HowAre{
+	margin-left: 200px;
+	margin-top:100px;
+	display: flex;
+	width:306px;
+	height:362px;
+	flex-flow: column;
+	word-wrap: break-word;
+  overflow: hidden;
+}
+
+
+.HowDivCard{
+	margin-left:80px;
+	display:flex ;
+	flex-flow: row;
+	width:1300px;
+	height: 297px;
+	align-content: space-around;
+
+}
+
+html {
+	margin: auto;
+}

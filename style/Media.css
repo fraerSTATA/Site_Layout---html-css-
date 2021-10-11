@@ -1,0 +1,384 @@
+@media (max-width:428px) {
+   html {
+       width:428px;
+   }
+
+   html img {
+       max-width: 100%;
+   }
+    .Header {
+        flex-flow: column;
+
+    }
+    .banner {
+
+	width:270px;
+height:300px;
+		font-size: 12px;
+        margin-left: 60px;
+        text-align: left;
+  }
+  .banner li {
+
+      padding: 5px;
+  }
+  .Agency{
+    font-size: 74px;
+  }
+  .Rectim {
+      margin-top: 640px;
+      margin-left: 80px;
+  }
+  header > img {
+    max-width: 180%;
+      top:240px;
+      left: -350px;
+  }
+
+  .HeaderImage { 
+      width: 200px;
+      margin-left: 150px;
+      margin-top: -10px;
+  }
+  .HeaderImage ul li:nth-child(2) {
+      margin-left: 50px;
+  }
+  .HeaderImage ul li:nth-child(1) {
+    margin-left:10px;
+}
+
+
+.Who {
+    flex-flow: column;
+}
+.WhoAre {
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    width:428px;
+}
+.WhoAre > h1 {
+    margin-left: 30px;
+    font-size: 48px;
+}
+.Who > img
+{
+    max-width: 100%;
+}
+.Macbook{
+    margin-left: 50px;
+    margin-top: 0px;
+    width:300px;
+    height:200px;
+}
+
+.WhoDiv {
+    margin-left: 80px;
+}
+
+
+.What > h1 {
+    margin-left: 40px ;
+    margin-top: 5px;
+    font-size: 48px;
+}
+
+.What {
+    background-image: none;
+}
+.WhatWe > div {
+    height: 104px;
+    width: 428px;
+    margin-left: 24px;
+}
+
+.WhatWe {
+    align-content: space-around;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    width: 428px;
+margin-left: 0px;
+  margin-right: 0px;
+    margin-bottom: 150px;
+}
+
+.WhatWeDiv p {
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.How {
+    height:470px;
+    background-image: none;
+}
+.How > h1 {
+    font-size: 48px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.HowDiv {
+    margin-left: 0px;
+    flex-flow: column;
+    height: 500px;
+}
+.HowDiv > div:first-child {
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.HowDiv > div:first-child p {
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.HowDivCard {
+    width:428px;
+    margin-left: 5px;
+}
+
+.Card {
+    display: flex;
+    flex-flow: column;
+    background-color: rgb( 66, 66, 64 );
+    word-wrap: break-word;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    transform: skewX(
+-20deg
+);
+}
+
+.Card > h2 {
+    width: 50px;
+    display: inline-block;
+    transform: skewX(
+20deg
+);
+    margin-left: 80px;
+    height: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.Card div {
+    padding-top: 50px;
+    overflow: hidden;
+    height: 200px;
+    transform: skewX(
+20deg
+);
+    width: 100px;
+    transition: 1s ease-in-out;
+}
+
+.Card > div > h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.HowDivCard > div:nth-child(2) {
+    margin-left: 20px;
+    background-image: url(../image/Stul.png);
+    background-position: center;
+    background-size: 150%;
+}
+
+.HowDivCard > div:nth-child(3) {
+    margin-left: 20px;
+    background-image: url(../image/Time.png);
+    background-position: center;
+    background-size: 150%;
+}
+
+.HowDivCard > div:nth-child(1) {
+    margin-left: 30px;
+    background-image: url(../image/Teacher.png);
+    background-position: center;
+    background-size: 150%;
+}
+
+.Card > div:hover{
+    margin-top:-30px;
+
+    margin-left:5px;
+}
+
+.Card > div > p {
+    font-size: 4px;
+    line-height: 30px;
+    color: #f5f3f3;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.Our {
+    background-image: none;
+    height: 530px;
+}
+
+.Our > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+    color: #494949;
+    font-weight: 700;
+    font-family: 'Peace Sans';
+}
+.Slider {
+    width: 428px;
+    padding-left:0px;
+    padding-right: 0px;
+    flex-flow: row;
+}
+
+.SliderImages {
+    width:400px;
+}
+
+.SliderMicro {
+    opacity: 0%;
+}
+.SliderBig {
+    margin-top: 20px;
+    margin-left: -280px;
+}
+
+.CentralImage{
+    width:260px;
+    height:260px;
+}
+
+.Our img {
+    opacity: 0%;
+}
+
+
+
+.Client {
+    background-image: none;
+}
+
+.Client > h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.ClientFlex {
+    margin-left: 0px;
+    width: 428px;
+    height: 600px;
+    flex-flow: column    ;
+
+}
+
+.ClientDiv {
+    width:160px;
+    height:245px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.ClientSays {
+    width:428px;
+    justify-content: normal;
+    flex-flow: row wrap;
+}
+
+.ClientText {
+    word-wrap: break-word;
+    width:300px;
+    margin-left: 5px;
+   
+}
+
+.ClientImages {
+    margin-left: -5px;
+    flex-flow: column wrap;
+    margin-top: 106px;
+  
+}
+.ClientText > h1 {
+   display: none;
+}
+
+footer > h1 {
+    
+	margin-top: 18px;
+	margin-left: 10px;
+	font-size: 62px;
+color: #9f9f9f;
+font-weight: 700;
+font-family: "Peace Sans";
+padding-bottom: 90px;
+padding-bottom: 5px;
+}
+
+.Contact{
+    margin-left: 10px;
+      width: 428px;
+      display: flex;
+      flex-flow: column wrap;
+        justify-content: space-around;
+        height: 300px;
+  }
+
+  .Icons {
+      margin-top:30px;
+      width:428px;
+      margin-left: 0px;
+  }
+
+  .Icons > ul {
+      width: 100%;
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Icons > ul > li{
+   margin-left: 20px;
+   padding: 3px;
+}
+
+footer > h2 {
+    margin-top: 24px;
+      margin-left: 10px;
+      font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Times New Roman";
+}
+
+.Icons > ul > li:first-child{
+    margin-left: 24px;
+  }  
+}

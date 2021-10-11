@@ -1,0 +1,100 @@
+.Client >h1{
+	margin-left: 312px;
+	margin-top:102px;
+	margin-bottom: 76px;
+	
+	font-size: 62px;
+color: #494949;
+font-weight: 700;
+font-family: 'Peace Sans';
+}
+
+.ClientDiv {
+	display: flex;
+margin-top: 30px;
+width: 300px;
+height: 300px;
+
+transform: rotate(45deg);
+overflow: hidden;
+border: 18px solid #ffffff;
+filter: drop-shadow(-3.508px 11.476px 20px rgba(0,1,1,0.22));
+	
+}
+.ClientDiv img {
+	transform: rotate(-45deg) scale(1.4);
+	
+}
+
+.ClientFlex {
+	margin-left: 250px;
+	width:1200px;
+	height:416px;
+	display:flex;
+	flex-flow:column wrap;
+}
+
+.ClientSays{
+	width:758px;
+	height:100%;
+	display:flex;
+	margin-top: 70px;
+
+	justify-content: space-between;
+}
+
+.ClientSays > img {
+	margin-top: 1px;;
+	display:block;
+}
+
+.ClientText{
+	margin-left: 20px;
+	display: flex;
+
+	width:666px;
+	flex-flow: column;
+}
+
+.ClientText > p {
+	margin-top: 20px;
+height: 112px;
+font-size: 20px;
+line-height: 30px;
+color: #6a6a6a;
+font-weight: 400;
+font-style: italic;
+font-family: "Open Sans";
+}
+.ClientText > h1 {
+	font-size: 18px;
+line-height: 30px;
+color: #6a6a6a;
+font-weight: 700;
+font-family: "Open Sans";
+margin-left: -7px;
+}
+
+.ClientImages {
+	margin-top: 66px;
+	height: 72px;;
+	width:248px;
+	margin-left: 40px;
+	
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.MicroImages{
+width: 50px;
+height: 50px;
+
+transform: rotate(45deg);
+overflow: hidden;
+	display: flex;
+}
+.MicroImages > img {
+	
+	transform: rotate(-45deg) scale(1.4);
+	align-items: center;
+}
